@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-heading">
+        <h1>HTML Form Elements</h1>
+    </div>
+<div class="main-div">
+    <div class="heading-section">
+        <h3>The Input Element</h3>
+        <form action="#">
+            <label for="fname">First Name</label><br>
+            <input type="text" placeholder="First Name"><br><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text"><br><br>
+            <label for="Number">Number</label><br>
+            <input type="text"><br>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="Element-section">
+        <h3>The Select Element</h3>
+        <form>
+            <label for="bicks">Choose a car:</label><br>
+            <select name="bicks" id="bicks">
+                <option value=""></option><br>
+                <option value="Kawasaki Ninja">Kawasaki Ninja</option><br>
+                <option value="Royal Enfield">Royal Enfield</option><br>
+                <option value="KTM Duke">KTM Duke</option><br>
+                <option value="Yamaha MT-15">Yamaha MT-15</option><br>
+                <option value="KTM Rc">KTM Rc</option><br>
+            </select><br><br>
+            <input type="submit"><br><br>
+        </form>
+    </div>
+    <div class="pre-option">
+        <h3>Pre-selected Option</h3>
+        <form>
+            <label for="bicks">Choose a car:</label><br>
+            <select id="bicks" name="bicks">
+              <option value="">KTM Rc</option><br>
+              <option value="">KTM Duke</option><br>
+              <option value="" selected>Kawasaki Ninja</option><br>
+              <option value="">Yamaha MT-15</option><br>
+            </select><br><br>
+            <input type="submit">
+          </form>
+    </div>
+    <div class="values-section">
+        <h3>Visible Option Values</h3>
+        <form>
+            <label for="Citys">Choose a citys:</label>
+            <select id="Citys" name="Citys" size="4">
+              <option value="Paris">Paris</option>
+              <option value="New York">New York</option>
+              <option value="London">London</option>
+              <option value="Venice">Venice</option>
+              <option value="Paris">Paris</option>
+              <option value="New York">New York</option>
+              <option value="London">London</option>
+              <option value="Venice">Venice</option>
+              <option value="Paris">Paris</option>
+              <option value="New York">New York</option>
+              <option value="London">London</option>
+              <option value="Venice">Venice</option>
+            </select><br><br>
+            <input type="submit"><br><br>
+          </form>
+    </div>
+    <div class="textarea-section">
+        <h3>Textarea</h3>
+        <form>
+            <textarea name="message" rows="10" cols="20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ullam aliquam sint iusto alias odio!</textarea><br>
+            <br><br>
+            <input type="submit"><br><br>
+          </form>
+    </div>
+    <div class="styling-textarea">
+        <h3>Styling Textarea</h3>
+        <form>
+            <textarea name="message" style="width:150px; height:150px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eius modi quisquam cumque, saepe architecto.</textarea>
+            <br><br>
+            <input type="submit"><br><br>
+          </form>
+    </div>
+    <div class="button-element">
+        <h3>The Button Element</h3><br>
+        <button type="button"onclick="alert('Hello Robi vai and Rahat vai !')">Click Me !</button><br>
+    </div>
+    <div class="groupimg-form">
+        <h3>Grouping Form Data with Fieldset</h3>
+        <form>
+            <fieldset>
+              <legend>Arafat</legend>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value="Arafat Al"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value="Siam"><br>
+              <input type="submit" value="Submit"><br>
+            </fieldset>
+          </form>
+    </div>
+    <div class="data-element">
+        <h3>The Data List Element</h3><br>
+        <form>
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Kawasaki Ninja">
+                <option value="Royal Enfield">
+                <option value="KTM Duke">
+                <option value="Yamaha MT-15">
+                <option value="KTM Rc">
+            </datalist>
+            <input type="submit"><br><br>
+          </form>  
+    </div>
+</div>
+</body>
+</html>

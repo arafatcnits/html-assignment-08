@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-heading {
+    margin-top: 30px;
+    text-align: center;
+}
+/* .main-div h3 {
+    margin-bottom: 40px;
+    margin-top: 20px;
+} */
+.heading-section {
+    margin-top: 50px;
+}
+.heading-section  input {
+    margin-top: 5px;
+
+    
+}
+.heading-section submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.heading-section h3 {
+    margin-bottom: 10px;   
+}
+.Element-section h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Element-section label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Element-section submit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pre-option h3 {
+    margin-bottom: 10px;
+
+}
+.values-section h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#bicks {
+    margin-top: 5px;
+
+}
+.textarea-section h3 {
+    margin-bottom: 10px;
+}
+.styling-textarea h3{
+    margin-bottom: 10px;
+}
+.button-element {
+    margin-bottom: 10px;
+}
+.groupimg-form h3 {
+    margin-bottom: 10px;
+}
+.groupimg-form legend {
+    margin-bottom: 10px;
+}
+.groupimg-form label{
+    padding-bottom: 10px;
+}
+.groupimg-form input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+body {
+    background: rgb(230, 233, 236);
+    margin-left: 20px;
+    
+}
